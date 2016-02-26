@@ -1,0 +1,54 @@
+﻿@using CarDealership.Objects;
+@model List<CarDealership.Objects.Vehicle>
+
+@{
+    ViewBag.Title = "Current Inventory";
+}
+
+<h2>Car Dealership Inventory</h2>
+<h3>Current Inventory</h3>
+
+<form action="@Url.Action("UpdateMarkup","Inventory")" method="post" style="margin-top:30px; margin-bottom:30px;">
+    <span>Markup Percentage:</span><input type="text" name="percentage" value="@ViewBag.MarkupPct.ToString()"/><span>%</span>
+    <div><input type="submit" value="Submit"/></div>
+</form>
+
+<table style="margin-bottom:30px;">
+    <thead>
+        <tr>
+            <td>Make</td>
+            <td>Model</td>
+            <td>Year</td>
+            <td>Type</td>
+            <td>Price</td>
+            <td>Features</td>
+            <td>Sold?</td>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (Vehicle vehicle in Model)
+    {
+            <tr>
+                <td>@vehicle.Make</td>
+                <td>@vehicle.Model</td>
+                <td>@vehicle.Year.ToString()</td>
+                <td>@vehicle.VehicleType</td>
+                <td>@string.Format("{0:C}", vehicle.MarkupPrice)</td>
+                <td>
+                    @foreach (Feature f in vehicle.Features)
+                    {
+                       string features = string.Format("{0} {1:C},", f.Description, f.RetailPrice);
+                       <span>@features</span>
+                    }
+                </td>
+                <td>
+                <form action="@Url.Action("DeleteVehicle","Inventory")" method="delete">
+                    <input type="hidden" name="id" value="@vehicle.ID" />
+                    <input type="submit" value="Sold" />
+                </form>
+            </tr>
+    }       
+    </tbody>
+</table>
+
+<a href="@Url.Action("Management","Inventory")">Management Screen</a>

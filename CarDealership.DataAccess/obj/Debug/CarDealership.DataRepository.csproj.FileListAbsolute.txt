@@ -1,0 +1,14 @@
+C:\Users\Eric\Desktop\CarDealershipWeb\CarDealership.DataAccess\bin\Debug\CarDealership.DataAccess.dll
+C:\Users\Eric\Desktop\CarDealershipWeb\CarDealership.DataAccess\bin\Debug\CarDealership.DataAccess.pdb
+C:\Users\Eric\Desktop\CarDealershipWeb\CarDealership.DataAccess\bin\Debug\CarDealership.Objects.dll
+C:\Users\Eric\Desktop\CarDealershipWeb\CarDealership.DataAccess\bin\Debug\CarDealership.Objects.pdb
+C:\Users\Eric\Desktop\CarDealershipWeb\CarDealership.DataAccess\obj\Debug\CarDealership.DataRepository.csprojResolveAssemblyReference.cache
+C:\Users\Eric\Desktop\CarDealershipWeb\CarDealership.DataAccess\obj\Debug\CarDealership.DataAccess.dll
+C:\Users\Eric\Desktop\CarDealershipWeb\CarDealership.DataAccess\obj\Debug\CarDealership.DataAccess.pdb
+E:\Tech\Car Dealership Test\CarDealershipWebSmall\CarDealership.DataAccess\bin\Debug\CarDealership.DataAccess.dll
+E:\Tech\Car Dealership Test\CarDealershipWebSmall\CarDealership.DataAccess\bin\Debug\CarDealership.DataAccess.pdb
+E:\Tech\Car Dealership Test\CarDealershipWebSmall\CarDealership.DataAccess\bin\Debug\CarDealership.Objects.dll
+E:\Tech\Car Dealership Test\CarDealershipWebSmall\CarDealership.DataAccess\bin\Debug\CarDealership.Objects.pdb
+E:\Tech\Car Dealership Test\CarDealershipWebSmall\CarDealership.DataAccess\obj\Debug\CarDealership.DataRepository.csprojResolveAssemblyReference.cache
+E:\Tech\Car Dealership Test\CarDealershipWebSmall\CarDealership.DataAccess\obj\Debug\CarDealership.DataAccess.dll
+E:\Tech\Car Dealership Test\CarDealershipWebSmall\CarDealership.DataAccess\obj\Debug\CarDealership.DataAccess.pdb

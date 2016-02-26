@@ -1,0 +1,9 @@
+C:\Users\Eric\Desktop\CarDealershipWeb\CarDealership.Objects\bin\Debug\CarDealership.Objects.dll
+C:\Users\Eric\Desktop\CarDealershipWeb\CarDealership.Objects\bin\Debug\CarDealership.Objects.pdb
+C:\Users\Eric\Desktop\CarDealershipWeb\CarDealership.Objects\obj\Debug\CarDealership.Objects.dll
+C:\Users\Eric\Desktop\CarDealershipWeb\CarDealership.Objects\obj\Debug\CarDealership.Objects.pdb
+E:\Tech\Car Dealership Test\CarDealershipWebSmall\CarDealership.Objects\bin\Debug\CarDealership.Objects.dll
+E:\Tech\Car Dealership Test\CarDealershipWebSmall\CarDealership.Objects\bin\Debug\CarDealership.Objects.pdb
+E:\Tech\Car Dealership Test\CarDealershipWebSmall\CarDealership.Objects\obj\Debug\CarDealership.Objects.csprojResolveAssemblyReference.cache
+E:\Tech\Car Dealership Test\CarDealershipWebSmall\CarDealership.Objects\obj\Debug\CarDealership.Objects.dll
+E:\Tech\Car Dealership Test\CarDealershipWebSmall\CarDealership.Objects\obj\Debug\CarDealership.Objects.pdb

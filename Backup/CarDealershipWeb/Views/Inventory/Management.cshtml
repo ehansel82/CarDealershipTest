@@ -1,0 +1,100 @@
+﻿@using CarDealership.Objects;
+@model List<CarDealership.Objects.Vehicle>
+
+@{
+    ViewBag.Title = "Car Management Screen";
+}
+
+<h2>Inventory</h2>
+<h3>Car Management</h3>
+
+<h4>Add Car</h4>
+<form action="@Url.Action("AddVehicle","Inventory")" method="put" style="border-style:solid;">
+    <div>
+        <label for="Make">Make:</label>
+        <select name="Make">
+            <option value=""></option>
+            <option value="Ford">Ford</option>
+            <option value="Lincoln">Lincoln</option>
+            <option value="Dodge">Dodge</option>
+        </select>
+    </div>
+    <div>
+    <label for="Model">Model:</label>
+        <select name="Model">
+            <option value=""></option>
+            <option value="Focus">Focus</option>
+            <option value="Fusion">Fusion</option>
+            <option value="MKZ">MKZ</option>
+            <option value="Navigator">Navigator</option>
+            <option value="Avenger">Avenger</option>
+            <option value="Dart">Dart</option>
+            <option value="Durango">Durango</option>
+        </select>
+    </div>
+        <div>
+    <label for="VehicleType">VehicleType:</label>
+        <select name="VehicleType">
+            <option value=""></option>
+            <option value="Car">Car</option>
+            <option value="Truck">Truck</option>
+            <option value="SUV">SUV</option>
+        </select>
+    </div>
+    <div>
+        <label for="Year">Year:</label>
+        <input type="number" min="1950" max="2050" name="Year" />
+    </div>
+    <div>
+        <label for="RetailPrice">Price:</label>
+        <span>$</span><input type=number name="RetailPrice"/>
+    </div>
+    <div>
+        <label for="NumberInStock">Number In Stock</label>
+        <input type=number name="NumberInStock"/>
+    </div>
+
+    <h4>Features</h4>
+    <div>
+        <label for="DoorFeature">Doors:</label>
+        <select name="DoorFeature">
+            <option value=""></option>
+            @foreach (Feature feature in ViewBag.DoorFeatures)
+            {
+                <option value="@feature.ID">@feature.Description</option>
+            }
+        </select>
+    </div>
+        <div>
+        <label for="FuelFeature">Fuel:</label>
+        <select name="FuelFeature">
+            <option value=""></option>
+            @foreach (Feature feature in ViewBag.FuelFeatures)
+            {
+                <option value="@feature.ID">@feature.Description</option>
+            }
+        </select>
+    </div>
+        <div>
+        <label for="TransmissionFeature">Transmission:</label>
+        <select name="TransmissionFeature">
+            <option value=""></option>
+            @foreach (Feature feature in ViewBag.TransmissionFeatures)
+            {
+                <option value="@feature.ID">@feature.Description</option>
+            }
+        </select>
+    </div>
+        <div>
+        <label for="InteriorFeature">Interior:</label>
+        <select name="InteriorFeature">
+            <option value=""></option>
+            @foreach (Feature feature in ViewBag.InteriorFeatures)
+            {
+                <option value="@feature.ID">@feature.Description</option>
+            }
+        </select>
+    </div>
+    <input type="submit" value="Submit" />
+</form>
+
